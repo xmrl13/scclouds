@@ -1,11 +1,11 @@
-Fibonacci
+### Fibonacci
 Já conhecia o desafio de implementar a sequência de Fibonacci para um número N. Esse estudo está disponível no meu GitHub, no projeto Estrutura de Dados.
 
 Assim como no projeto de Estrutura de Dados, fiz três implementações: a implementação linear, que é a melhor das três; uma implementação recursiva trivial, que é ineficiente; e uma implementação recursiva aprimorada, que é boa, mas ainda não é tão eficiente quanto a implementação linear em termos de memória e processamento.
 
 A recursividade é muito útil quando não conhecemos o limite daquilo que estamos explorando, como, por exemplo, na implementação de algoritmos de ordenação em árvores.
 
-Primos
+### Primos
 Esse desafio é interessante por vários motivos, e algumas propriedades são fundamentais para resolvê-lo de maneira eficiente. Já tinha o conhecimento prévio de que números primos não possuem raiz exata, o que faz com que diversos números não precisem ser testados em loop para verificar se são primos. Além disso, é possível descartar todos os pares maiores que 2.
 
 Uma coisa interessante que descobri posteriormente é que existe uma técnica chamada Crivo de Eratóstenes, que otimiza significativamente o processamento, sendo muito melhor do que a abordagem que eu implementei.
