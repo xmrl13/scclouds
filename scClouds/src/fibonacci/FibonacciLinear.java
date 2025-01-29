@@ -6,13 +6,19 @@ public class FibonacciLinear {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Digite a posição para ver seu valor em fibonacci, apenas inteiros: ");
+        System.out.print("Digite a posição para ver seu valor em fibonacci, apenas naturais: ");
         if (scanner.hasNextInt()) {
             int entrada = scanner.nextInt();
-            fibonaciLinear(entrada);
+
+            if (entrada >= 0) {
+                fibonaciLinear(entrada);
+            } else {
+                System.out.println("Apenas número naturais");
+            }
         } else {
-            scanner.close();
+            System.out.println("Apenas números naturais");
         }
+        scanner.close();
     }
 
     public static void fibonaciLinear(int n) {
